@@ -14,54 +14,56 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<!-- Dark Mode Switch -->
-<div class="theme-switch-wrapper">
-    <span id="toggle-icon">
-        <span class="toggle-text">Light Mode</span>
-        <i class="fas fa-sun"></i>
-    </span>
-    <label class="theme-switch">
-        <input type="checkbox">
-        <div class="slider round"></div>
-    </label>
-</div>
 
-<!-- Navigation -->
+<!-- Navigation Section -->
 <nav id="nav">
-    <a href="#home">home</a>
-    <a href="#about">about</a>
-    <a href="#projects">projects</a>
-    <a href="#contact">contact</a>
+    <div class="link-box">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
+    </div>
+    <div class="switch-box">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <!-- Rounded switch -->
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </div>
 </nav>
 
 <!-- Home Section -->
 <section id="home">
-    <div class="title-group">
-        <h1>Custom Title Here</h1>
-        <h2>Welcome to the Website</h2>
-    </div>
+    <h1>Mondilla Web Designs</h1>
+    <h3>Let's Make The World See You...</h3>
 </section>
+
 <!-- About Section -->
 <section id="about">
-    <h1>Undraw Illustrations</h1>
+    <h2>Our Services</h2>
     <div class="about-container">
         <div class="image-container">
-            <h2>Web Innovation</h2>
-            <img src="img/undraw_proud_coder_light.svg" alt="Proud Coder" id="image1">
+            <h4>Web Innovation</h4>
+            <img src="img/undraw_proud_coder_light.svg" alt="Proud Coder" width="300px" id="image1">
         </div>
         <div class="image-container">
-            <h2>Problem Solving</h2>
-            <img src="img/undraw_feeling_proud_light.svg" alt="Proud Coder" id="image2">
+            <h4>Problem Solving</h4>
+            <img src="img/undraw_feeling_proud_light.svg" alt="Feeling Proud Coder" width="300px" id="image2">
         </div>
         <div class="image-container">
-            <h2>High Concept</h2>
-            <img src="img/undraw_conceptual_idea_light.svg" alt="Proud Coder" id="image3">
+            <h4>High Concept</h4>
+            <img src="img/undraw_conceptual_idea_light.svg" alt="Conceptual idea" width="300px" id="image3">
         </div>
     </div>
 </section>
-<!-- Projects Section -->
+
+<!-- Project Section -->
 <section id="projects">
-    <h1>Buttons</h1>
+    <h2>Work We Have Done</h2>
     <div class="buttons">
         <button class="primary">Primary</button>
         <button class="secondary">Secondary</button>
@@ -70,12 +72,14 @@
         <button class="seconday outline">Alt Outline</button>
         <button class="outline">Disabled</button>
     </div>
+
     <p class="text-box" id="text-box">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur distinctio dolor
         excepturi fugit ipsam ipsum, modi, nemo nostrum numquam provident quibusdam voluptate? Dolorem illum nisi omnis
         porro saepe?
     </p>
 </section>
+
 <!-- Contact Section -->
 <section id="contact">
     <div class="social-icons">
@@ -88,7 +92,6 @@
 
     </div>
 </section>
-
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
